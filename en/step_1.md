@@ -1,59 +1,18 @@
-## Introduction
+Remember that the `<a>` (anchor) tag is used to create a link to another web page (not the 'link' tag which is used to link to resources such as fonts).
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Also check that you have the correct web address (url) for the `href` property. 
 
-### What you will make
+The part of a web address after the the domain name (such as 'projects.raspberrypi.org'), is case sensitive so you need to make sure capital letters match. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+This example uses correct HTML to link to a web page that will open in a new browser tab:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: HTML
+filename: index.html
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Make a web page like this!</a>
 
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
