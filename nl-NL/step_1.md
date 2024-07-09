@@ -1,10 +1,10 @@
-Remember that the `<a>` (anchor) tag is used to create a link to another webpage (not the 'link' tag, which is used to link to resources such as fonts).
+Houd er rekening mee dat de tag `<a>` (anchor) wordt gebruikt om een link naar een andere webpagina te maken (niet de tag 'link', die wordt gebruikt om naar bronnen zoals lettertypen te linken).
 
-Also check that you have the correct web address (URL) for the `href` property.
+Controleer ook of je het juiste webadres (URL) hebt voor de eigenschap `href`.
 
-The part of a web address after the domain name (such as 'projects.raspberrypi.org') is case sensitive, so you need to make sure the capital letters match.
+Het gedeelte van een webadres na de domeinnaam (zoals 'projects.raspberrypi.org') is hoofdlettergevoelig, dus zorg ervoor dat de hoofdletters overeenkomen.
 
-This example uses correct HTML to link to a webpage that opens in a new browser tab:
+In dit voorbeeld wordt correcte HTML gebruikt om te linken naar een webpagina die in een nieuw browsertabblad wordt geopend:
 
 ## --- code ---
 
@@ -13,6 +13,6 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Make a webpage like this!</a>
+<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Maak een webpagina zoals deze!</a>
 
 \--- /code ---
