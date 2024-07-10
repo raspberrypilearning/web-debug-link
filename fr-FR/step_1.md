@@ -1,10 +1,10 @@
-Remember that the `<a>` (anchor) tag is used to create a link to another webpage (not the 'link' tag, which is used to link to resources such as fonts).
+N'oublie pas que c'est la balise '<a>' (ancrage) qui est utilisée pour créer un lien vers une autre page Web (et non la balise 'link', qui est utilisée pour créer un lien vers des ressources telles que les polices).
 
-Also check that you have the correct web address (URL) for the `href` property.
+Vérifie également que tu utilises l'adresse Web (URL) correcte pour la propriété 'href'.
 
-The part of a web address after the domain name (such as 'projects.raspberrypi.org') is case sensitive, so you need to make sure the capital letters match.
+La partie d'une adresse Web située après le nom de domaine (comme 'projects.raspberrypi.org') est sensible à la casse, tu dois donc t'assurer que les lettres majuscules correspondent.
 
-This example uses correct HTML to link to a webpage that opens in a new browser tab:
+Cet exemple utilise le code HTML correct pour créer un lien vers une page Web qui s'ouvre dans un nouvel onglet de navigateur :
 
 ## --- code ---
 
@@ -13,6 +13,6 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Make a webpage like this!</a>
+<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Crée une page Web comme celle-ci !</a>
 
 \--- /code ---
