@@ -1,10 +1,10 @@
-Remember that the `<a>` (anchor) tag is used to create a link to another webpage (not the 'link' tag, which is used to link to resources such as fonts).
+请记住，`<a>`（anchor）标签用于创建到另一个网页的链接（而不是“link”标签，后者用于链接到字体等资源）。
 
-Also check that you have the correct web address (URL) for the `href` property.
+还要检查 `href` 属性的网址（URL）是否正确。
 
-The part of a web address after the domain name (such as 'projects.raspberrypi.org') is case sensitive, so you need to make sure the capital letters match.
+网址中域名后面的部分（例如“projects.raspberrypi.org”）区分大小写，因此你需要确保大写字母匹配。
 
-This example uses correct HTML to link to a webpage that opens in a new browser tab:
+此示例使用正确的 HTML 链接到在新浏览器选项卡中打开的网页：
 
 ## --- code ---
 
@@ -13,6 +13,6 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">Make a webpage like this!</a>
+<a href="https://projects.raspberrypi.org/en/raspberrypi/web-intro" target="_blank">制作一个像这样的网页！</a>
 
 \--- /code ---
